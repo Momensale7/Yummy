@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <!-- Primary Meta Tags -->
+    <title>Yummy</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <!-- ^stylesheet -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+    <!-- *loader -->
+    <div class="loader align-items-center justify-content-center w-100">
+        <div class="lds-roller text-white">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ^sidenav -->
+    <div id="sideNav" class="d-flex ">
+        <div class="navContent d-flex justify-content-between h-100 flex-column p-4 ">
+            <div class="navMenu">
+                <ul class="list-unstyled overflow-hidden navItem">
+                    <li id="search">Search</li>
+                    <li id="Categories">Categories</li>
+                    <li id="area">Area</li>
+                    <li id="ingredients">Ingredients</li>
+                    <li id="contact">Contact Us</li>
+                </ul>
+            </div>
+            <div class="navSocial">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div
+            class="navControl d-flex justify-content-between flex-column py-4 bg-white text-black px-2 align-items-center">
+            <div class="navLogo text-center">
+                <img src="images/logo.png" alt="Yummy logo" class="img-fluid">
+            </div>
+            <i class="fa-solid openCloseIcon fa-2x fa-align-justify"></i>
+            <div class="shareIcon d-flex flex-column align-items-center">
+                <i class="fa-solid fa-globe mb-1"></i>
+                <i class="fa-solid fa-share-nodes mb-1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="py-4 px-5 ms-5 ">
+        <div class="container w-75" id="searchContainer">
+            <div class="row py-4 ">
+                <div class="col-md-6 ">
+                    <input id="inputWord" class="form-control bg-transparent text-white" type="text" placeholder="Search By Name">
+                </div>
+                <div class="col-md-6">
+                    <input id="inputChar" maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
+                </div>
+            </div>
+        </div>
+        <div class="row g-3 pt-2" id="mainContent">
+            
+        </div>
+    </div>
+
+    <!-- &scribts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
