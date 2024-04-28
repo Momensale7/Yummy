@@ -167,4 +167,6 @@ body{
 }
 .placeColor::placeholder{
     color: aliceblue !important;
+    font-size: 12px;
 }
+
