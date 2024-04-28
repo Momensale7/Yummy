@@ -165,3 +165,6 @@ body{
 #searchContainer{
     display: none;
 }
+.placeColor::placeholder{
+    color: aliceblue !important;
+}
