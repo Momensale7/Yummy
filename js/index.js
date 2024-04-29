@@ -244,8 +244,8 @@ function displayRecipes(arr) {
                 <ul class="list-unstyled d-flex g-3 flex-wrap">${recipesContent}</ul>
                 <h3>Tags :</h3>
                 <ul class="list-unstyled d-flex g-3 flex-wrap">${tagsContent}</ul>
-                <a target="_blank" href=${arr[0].strSource} class="btn btn-success">Source</a>
-                <a target="_blank" href=${arr[0].strYoutube} class="btn btn-danger">Youtube</a>
+                <a target="_blank" href=${arr[0].strSource ? arr[0].strSource:'#'} class="btn btn-success">Source</a>
+                <a target="_blank" href=${arr[0].strYoutube ? arr[0].strYoutube:'#'} class="btn btn-danger">Youtube</a>
             </div>
             `
     $('#mainContent').html(cartona);
